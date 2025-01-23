@@ -71,3 +71,63 @@ section#img01 {
 section#img02 {
    background-image: url(Imagem\ do\ WhatsApp\ de\ 2025-01-21\ à\(s\)\ 23.39.09_aac36889.jpg);
 }
+
+section#telefone {
+   position: absolute;
+   top: 700%;
+   left: 44%;
+   transform: translate(-50%, -50%);
+
+   height: 730px;
+   width: 590px;
+   background: url(iphone-7.3.0.png) no-repeat;
+
+}
+
+iframe#tela {
+   position: relative;
+   top: 136px;
+   left: 269px;
+   width: 283px;
+   height: 499px;
+   border-radius: 2px 2px;
+   
+}
+
+.btn{
+   position: absolute;
+
+   right: 46%;
+   top: 750%;
+   background-color: #202020;
+   border: none;
+   padding: 20px;
+   font-weight: 600;
+   border-radius: 30%;
+   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.616);
+   transition: 0.5 background;
+   cursor: pointer;
+   
+}
+
+
+button > a{
+   color: white;
+   text-decoration: none;
+   background-color: #202020;
+   transition: 0.5 background;
+}
+
+img{
+   width: 80px;
+   margin: 20px;
+   position: relative;
+   left: 47%;
+  
+ }
+
+section#link-instagram img {
+   width: 90px;
+   top: 20%;
+   
+}
