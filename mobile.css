@@ -1,0 +1,45 @@
+@charset 'UTF-8'
+
+header {
+   width: 100vw;
+}
+
+p {
+   font-size: 20px;
+}
+
+section#telefone {
+  position: absolute;
+  top: 490%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+
+  height: 730px;
+  width: 590px;
+  background: url(iphone-7.3.0.png) no-repeat;
+
+}
+
+img{
+  width: 80px;
+  margin: 20px;
+  position: relative;
+  left: 38%;
+ 
+}
+
+.btn{
+  position: absolute;
+
+  right: 35%;
+  top: 540%;
+  background-color: #202020;
+  border: none;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 30%;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.616);
+  transition: 0.5 background;
+  cursor: pointer;
+  
+}
